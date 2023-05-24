@@ -1,0 +1,40 @@
+.carousel {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+  }
+  .carousel-caption h5,
+  .carousel-caption p {
+    color: white;
+    
+  }
+  
+  .img1{
+    width: 35%;
+  }
+  .img2{
+    width: 35%;
+  }
+  .img3{
+    width: 35%;
+  }
+
+  h3{
+    background-color: black ;
+    width: 30%;
+    margin: auto;
+    
+  }
+
+  p{
+    background-color: black;
+    width: 30%;
+    margin: auto;
+    
+  }
