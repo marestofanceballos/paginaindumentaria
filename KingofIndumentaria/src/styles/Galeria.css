@@ -1,0 +1,87 @@
+.divgaleria{
+    padding: 150px;
+    display: flex;
+    width: 40%;
+    height: 35%;
+    justify-content:space-between;
+    margin-left: -3%;
+    position: relative;
+}
+
+.imgpantalones{
+margin-left: 25px;
+transition: transform 0.3s;
+}
+.imgremerones{
+margin-left: 25px;
+transition: transform 0.3s;
+}
+.imgcamisas{
+margin-left: 25px;
+transition: transform 0.3s;
+}
+.imgbuzo{
+transition: transform 0.3s;
+}
+
+.imgpantalones:hover {
+    transform: scale(0.9);
+ }
+ .imgbuzo:hover {
+    transform: scale(0.9);
+ }
+ .imgcamisas:hover {
+    transform: scale(0.9);
+ }
+ .imgremerones:hover {
+    transform: scale(0.9);
+ }
+
+
+
+  .texto-overlay {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .texto-overlay2 {
+    position: absolute;
+    top: 70%;
+    left: 105%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .texto-overlay3 {
+    position: absolute;
+    top: 70%;
+    left: 160%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .texto-overlay4 {
+    position: absolute;
+    top: 70%;
+    left: 215%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .texto-overlay p {
+    margin: 0;
+  }

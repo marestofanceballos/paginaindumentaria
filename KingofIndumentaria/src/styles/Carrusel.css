@@ -16,25 +16,35 @@
   }
   
   .img1{
-    width: 35%;
+    width: 30%;
+    display: block;
+    margin: auto;
   }
   .img2{
-    width: 35%;
+    width: 30%;
+    display: block;
+    margin: auto;
   }
   .img3{
-    width: 35%;
+    width: 30%;
+    display: block;
+    margin: auto;
   }
 
-  h3{
+  h5{
     background-color: black ;
-    width: 30%;
+    width: 20%;
     margin: auto;
     
   }
 
-  p{
-    background-color: black;
-    width: 30%;
-    margin: auto;
-    
+
+  .destacados{
+    color: black;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 70px;
+    text-align: center;
   }
+  
+  

@@ -11,9 +11,9 @@ function OffcanvasExample() {
   return (
     <>
       {[false].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand} className="mb-3">
+        <Navbar key={expand} style={{backgroundColor:"lightgray"}} expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="#">KingofIndumentaria.com</Navbar.Brand>
+            <Navbar.Brand style={{color:"black", fontSize:"20px", fontStyle:"initial" }}  href="#">KingofIndumentaria.com</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -21,7 +21,7 @@ function OffcanvasExample() {
               placement="end"
             >
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}  >
                   Kingof Indumentaria
                 </Offcanvas.Title>
               </Offcanvas.Header>
