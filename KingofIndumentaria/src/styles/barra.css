@@ -1,0 +1,27 @@
+.sliding-ad-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+  }
+  
+  .sliding-ad {
+    position: absolute;
+    top: 0;
+    left: 100%; /* Inicia fuera de la pantalla */
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    animation-name: slide-in;
+    animation-duration: 7s; /* Ajusta la velocidad de deslizamiento aquí */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; /* Repetición infinita */
+  }
+  
+  @keyframes slide-in {
+    0% { left: 100%; } /* Inicio de la animación */
+    100% { left: -100%; } /* Fin de la animación */
+  }
