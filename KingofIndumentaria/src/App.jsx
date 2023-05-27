@@ -9,6 +9,7 @@ import TeamSection from './Componentes/Nosostros2'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Pantalones from './Componentes/Pantalones'
+import Remerones from './Componentes/remerones'
 
 const App = () => {
   return (
@@ -48,7 +49,7 @@ const App = () => {
 
           />
 
-          <Route path='/buzos'
+          <Route path='/remerones'
             element={
               <>
                 <div className="sliding-ad-container">
@@ -56,7 +57,7 @@ const App = () => {
                 </div>
                 <Header />
                 <Nav />
-                
+                <Remerones />
                 <Footer />
               </>
             }

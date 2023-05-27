@@ -13,13 +13,13 @@ const Galeria = () => {
     
     <div className='divgaleria' >
       <img className='imgbuzo' src={imgbuzoportada} alt="" />
-      <a href="/buzos">
+      <a href="">
         <p className='texto-overlay' >BUZOS</p> 
 
       </a>
 
       <img className='imgremerones' src={imgremeronesportada} alt="" />
-      <a href="">
+      <a href="/remerones"> 
       <p className='texto-overlay2'>REMERONES</p>
 
       </a>

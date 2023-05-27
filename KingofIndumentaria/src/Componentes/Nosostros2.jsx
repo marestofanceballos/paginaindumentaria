@@ -6,21 +6,25 @@ const TeamSection = () => {
   const teamMembers = [
     {
       name: 'Sabrina Paolini Pujadas',
+      age: '19 años',
       role: 'Diseño de Indumetaria y Marketing',
       image: '../src/Imagenes/Sabrina.jpg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel ultrices metus.',
+      description: 'sabrinapaolinipuj@gmail.com',
+      
     },
     {
-      name: 'Jane Smith',
-      role: 'CTO',
+      name: 'Mariana Estofan Ceballos',
+      age: '20 años',
+      role: 'Gerente comercial',
       image: '../src/Imagenes/Mariana.jpg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel ultrices metus.',
+      description: 'marestofanceballos@gmail.com',
     },
     {
-      name: 'Mark Johnson',
-      role: 'Designer',
+      name: 'Maximiliano Otta',
+      age: '32 años',
+      role: 'Jefe de departamento',
       image: '../src/Imagenes/Maxi.jpg',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel ultrices metus.',
+      description: 'Maxiotta15@gmail.com',
     },
   ];
 
@@ -36,6 +40,7 @@ const TeamSection = () => {
                   <img src={member.image} alt={member.name} />
                 </div>
                 <h3>{member.name}</h3>
+                <p>{member.age}</p>
                 <p>{member.role}</p>
                 <p>{member.description}</p>
               </div>
