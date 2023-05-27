@@ -1,87 +1,88 @@
 .divgaleria{
-    padding: 150px;
-    display: flex;
-    width: 40%;
-    height: 35%;
-    justify-content:space-between;
-    margin-left: -3%;
-    position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  width: 25%;
+  justify-content:space-between;  
+  position: relative;
+  
 }
 
 .imgpantalones{
-margin-left: 25px;
 transition: transform 0.3s;
+padding: 15px;
 }
 .imgremerones{
-margin-left: 25px;
 transition: transform 0.3s;
+padding: 15px;
 }
 .imgcamisas{
-margin-left: 25px;
 transition: transform 0.3s;
+padding: 15px;
 }
 .imgbuzo{
 transition: transform 0.3s;
+padding: 15px;
 }
 
 .imgpantalones:hover {
-    transform: scale(0.9);
- }
- .imgbuzo:hover {
-    transform: scale(0.9);
- }
- .imgcamisas:hover {
-    transform: scale(0.9);
- }
- .imgremerones:hover {
-    transform: scale(0.9);
- }
+  transform: scale(0.9);
+}
+.imgbuzo:hover {
+  transform: scale(0.9);
+}
+.imgcamisas:hover {
+  transform: scale(0.9);
+}
+.imgremerones:hover {
+  transform: scale(0.9);
+}
 
 
 
-  .texto-overlay {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .texto-overlay2 {
-    position: absolute;
-    top: 70%;
-    left: 105%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
+.texto-overlay {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
 
-  .texto-overlay3 {
-    position: absolute;
-    top: 70%;
-    left: 160%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
+.texto-overlay2 {
+  position: absolute;
+  top: 80%;
+  left: 150%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
 
-  .texto-overlay4 {
-    position: absolute;
-    top: 70%;
-    left: 215%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  .texto-overlay p {
-    margin: 0;
-  }
+.texto-overlay3 {
+  position: absolute;
+  top: 80%;
+  left: 250%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.texto-overlay4 {
+  position: absolute;
+  top: 80%;
+  left: 350%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.texto-overlay p {
+  margin: 0;
+}
