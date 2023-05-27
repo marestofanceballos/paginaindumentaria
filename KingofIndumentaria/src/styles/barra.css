@@ -16,7 +16,7 @@
     color: #fff;
     padding: 10px;
     animation-name: slide-in;
-    animation-duration: 8s; /* Ajusta la velocidad de deslizamiento aquí */
+    animation-duration: 8s; /*duracion del desplazamiento*/
     animation-timing-function: linear;
     animation-iteration-count: infinite; /* Repetición infinita */
   }

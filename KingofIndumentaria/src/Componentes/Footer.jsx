@@ -11,7 +11,7 @@ function Footer() {
                     <h3>Síguenos en redes sociales</h3>
                     <ul>
                         <li>
-                            <a className='social-icon' href="https://www.instagram.com/tu_cuenta_de_instagram" target="_blank">
+                            <a className='social-icon' href="https://www.instagram.com/kingofthekongo/" target="_blank">
                                 <img className='icon' src={instagram} alt="Instagram" />
                             </a>
                         </li>
@@ -23,12 +23,12 @@ function Footer() {
                     </ul>
                 </div>
                 <div className="footer-column">
-                    <h3> Menú </h3>
+                    <h3> Menu </h3>
                     <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Novedades</a></li>
-                        <li><a href="#">Shop</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#novedades">Novedades</a></li>
+                        <li><a href="#shop">Shop</a></li>
+                        <li><a href="#nuestroequipo">Contacto</a></li>
                     </ul>
                 </div>
                 <div className="footer-column">

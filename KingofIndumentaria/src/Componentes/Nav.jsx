@@ -11,7 +11,7 @@ function OffcanvasExample() {
   return (
     <>
       {[false].map((expand) => (
-        <Navbar key={expand} style={{backgroundColor:"lightgray"}} expand={expand} className="mb-3">
+        <Navbar key={expand} style={{backgroundColor:"lightgray"}} expand={expand} className="mb-3" >
           <Container fluid>
             <Navbar.Brand style={{color:"black", fontSize:"20px", fontStyle:"initial" }}  href="#">KingofIndumentaria.com</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -27,21 +27,20 @@ function OffcanvasExample() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Pagina Principal</Nav.Link>
-                  <Nav.Link href="#action2">Novedades</Nav.Link>
+                  <Nav.Link href="/">Pagina Principal</Nav.Link>
                   <NavDropdown
                     title="SHOP"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="#action3">Buzos</NavDropdown.Item>
+                    <NavDropdown.Item href="/Buzos">Buzos</NavDropdown.Item>
                     <NavDropdown.Item href="#action4">
                       Camisas
                     </NavDropdown.Item>
                    
-                    <NavDropdown.Item href="#action5">
+                    <NavDropdown.Item href="/pantalones">
                       Pantalones
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action6">
+                    <NavDropdown.Item href="/remerones">
                       Remerones
                     </NavDropdown.Item>
                   </NavDropdown>

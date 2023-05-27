@@ -21,8 +21,7 @@ function DarkVariantExample() {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h5>Flex Ben Azul</h5>
-                       
+                        <h5 className='text-desc'>Flex Ben Azul</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -32,7 +31,7 @@ function DarkVariantExample() {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h5>Basic Black</h5>
+                        <h5 className='text-desc'>Basic Black</h5>
                         
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -43,7 +42,7 @@ function DarkVariantExample() {
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                        <h5>Leñadora Maxtem</h5>
+                        <h5 className='text-desc'>Leñadora Maxtem</h5>
                      
                     </Carousel.Caption>
                 </Carousel.Item>

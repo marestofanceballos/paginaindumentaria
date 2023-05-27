@@ -10,6 +10,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Pantalones from './Componentes/Pantalones'
 import Remerones from './Componentes/remerones'
+import Buzos from './Componentes/Buzos'
+import Novedades from './Componentes/Novedades'
 
 const App = () => {
   return (
@@ -26,8 +28,10 @@ const App = () => {
                 <Nav />
                 < DarkVariantExample />
                 <Galeria />
+                <Novedades/>
                 <TeamSection />
                 <Footer />
+                
               </>
 
             }
@@ -45,8 +49,6 @@ const App = () => {
                 <Footer />
               </>
             }
-
-
           />
 
           <Route path='/remerones'
@@ -61,11 +63,22 @@ const App = () => {
                 <Footer />
               </>
             }
-
-
           />
 
 
+          <Route path='/Buzos'
+            element={
+              <>
+                <div className="sliding-ad-container">
+                  <SlidingAd />
+                </div>
+                <Header />
+                <Nav />
+                <Buzos />
+                <Footer />
+              </>
+            }
+          />
 
 
 

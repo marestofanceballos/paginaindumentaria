@@ -26,12 +26,13 @@ const TeamSection = () => {
       image: '../src/Imagenes/Maxi.jpg',
       description: 'Maxiotta15@gmail.com',
     },
+    
   ];
 
   return (
-    <section className="team-section">
+    <section className="team-section"  id='nuestroequipo'>
       <Container>
-        <h2>Nuestros equipos</h2>
+        <h2  className='text-center fs-3  mb-5 '>Nuestro Equipo</h2>
         <Row>
           {teamMembers.map((member, index) => (
             <Col md={4} key={index}>

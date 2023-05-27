@@ -11,11 +11,10 @@ import "../styles/Galeria.css"
 const Galeria = () => {
   return (
     
-    <div className='divgaleria' >
+    <div className='divgaleria'id='shop' >
       <img className='imgbuzo' src={imgbuzoportada} alt="" />
-      <a href="">
+      <a href="/Buzos">
         <p className='texto-overlay' >BUZOS</p> 
-
       </a>
 
       <img className='imgremerones' src={imgremeronesportada} alt="" />
