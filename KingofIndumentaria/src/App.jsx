@@ -12,6 +12,7 @@ import Pantalones from './Componentes/Pantalones'
 import Remerones from './Componentes/remerones'
 import Buzos from './Componentes/Buzos'
 import Novedades from './Componentes/Novedades'
+import Camisas from './Componentes/Camisas'
 
 const App = () => {
   return (
@@ -28,10 +29,10 @@ const App = () => {
                 <Nav />
                 < DarkVariantExample />
                 <Galeria />
-                <Novedades/>
+                <Novedades />
                 <TeamSection />
                 <Footer />
-                
+
               </>
 
             }
@@ -79,6 +80,21 @@ const App = () => {
               </>
             }
           />
+
+          <Route path='/Camisas'
+            element={
+              <>
+                <div className="sliding-ad-container">
+                  <SlidingAd />
+                </div>
+                <Header />
+                <Nav />
+                <Camisas />
+                <Footer />
+              </>
+            }
+
+            />
 
 
 

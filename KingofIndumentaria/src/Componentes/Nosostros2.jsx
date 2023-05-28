@@ -32,7 +32,7 @@ const TeamSection = () => {
   return (
     <section className="team-section"  id='nuestroequipo'>
       <Container>
-        <h2  className='text-center fs-3  mb-5 '>Nuestro Equipo</h2>
+        <h2  className='text-center fs-3  mb-5'>Nuestro Equipo</h2>
         <Row>
           {teamMembers.map((member, index) => (
             <Col md={4} key={index}>
